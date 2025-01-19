@@ -1,13 +1,15 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
+Set<String> favoriteJokes = {};
+
 class ApiServices {
   static const String baseUrl = 'https://official-joke-api.appspot.com';
-
 
   static Future<List<String>> fetchJokeTypes() async {
     final response = await http.get(Uri.parse('$baseUrl/types'));
     if (response.statusCode == 200) {
+      // Set<String> favoriteJokes = {};
       return List<String>.from(json.decode(response.body));
     } else {
       throw Exception('Failed to load!');

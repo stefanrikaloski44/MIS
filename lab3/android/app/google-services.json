@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "9968502623",
+    "project_id": "finki-stefan",
+    "storage_bucket": "finki-stefan-5ece7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9942153215:android:00dbfa4443cdc254e6d9ea",
+        "android_client_info": {
+          "package_name": "com.example.lab2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "SEvaSeB9OXwcZtxELemC2Dev5aqsK7JmB14sIzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9968502623:android:bf63e2a1fc440de3e6d8ea",
+        "android_client_info": {
+          "package_name": "com.example.lab3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9OXwcZtxELemC2Dev5sqsK7JmB52dIhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

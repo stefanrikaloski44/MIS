@@ -65,7 +65,7 @@ class HomeScreen extends StatelessWidget {
             style: TextStyle(
               fontFamily: "Georgia",
               fontSize: 20.0, // Optional: Adjust the font size
-              fontWeight: FontWeight.bold, // Optional: Adjust the font weight
+              fontWeight: FontWeight.bold,
               color: Colors.white,
             ),
             textAlign: TextAlign.center,
